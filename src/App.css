@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /* changed from 40 to 50 for test commit */
+  height: 50vmin;
   pointer-events: none;
 }
 
