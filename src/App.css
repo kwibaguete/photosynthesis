@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-image: url('./assets/homescreen_bckg.jpg');
+  background-image: url('./assets/homescreen_mid.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,6 +15,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;

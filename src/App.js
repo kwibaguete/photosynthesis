@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from './MainPage';
 import Greenhouse from './Greenhouse';
 
-
 function App() {
   return (
     <BrowserRouter>
