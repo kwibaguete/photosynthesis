@@ -1,10 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Greenhouse.css';
 
 function Greenhouse() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Greenhouse">
+      <header className="Greenhouse-header">
         <h1>Welcome to the Greenhouse 🌿</h1>
         <HomepageButton />
       </header>
