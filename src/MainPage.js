@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
 
+
 function MainPage() {
   return (
     <div className="App">

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from './MainPage';
 import Greenhouse from './pages/Greenhouse';
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -11,7 +12,10 @@ function App() {
         <Route path="/greenhouse" element={<Greenhouse />} />
       </Routes>
     </BrowserRouter>
+
+  
   );
+
 }
 
 export default App;
