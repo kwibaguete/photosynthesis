@@ -10,12 +10,12 @@ function MainPage() {
         <h1>Welcome to the Home page!</h1>
         <Clock></Clock>
         <GreenhouseButton />
+        &nbsp;&nbsp;&nbsp;
+        <PomodoroButton />
       </header>
     </div>
   );
 }
-
-
 
 function GreenhouseButton() {
   const navigate = useNavigate();
@@ -26,6 +26,19 @@ function GreenhouseButton() {
         navigate('/greenhouse');
     }}>
       greenhouse!
+    </button>
+  );
+}
+
+function PomodoroButton() {
+  const navigate = useNavigate();
+
+  return (
+    <button onClick={() => {
+        console.log("navigating to pomodoro...");
+        navigate('/pomodoro');
+    }}>
+      pomodoro!
     </button>
   );
 }
