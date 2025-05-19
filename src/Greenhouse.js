@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Greenhouse.css';
 import Clock from './clock/Clock';
+import NotebookButton from './NotebookButton.js';
 
 function Greenhouse() {
   return (
@@ -10,6 +11,7 @@ function Greenhouse() {
         <h1>Welcome to the Greenhouse 🌿</h1>
         <Clock></Clock>
         <HomepageButton />
+        <NotebookButton />
       </header>
     </div>
   );

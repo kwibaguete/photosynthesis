@@ -16,6 +16,15 @@
   color: white;
 }
 
+#notebook_button {
+  position: fixed;
+  border-radius: 100%;
+  padding: 20px;
+  background-color: rgb(231, 209, 176);
+  left: 1vw;
+  top: 1vw;
+}
+
 
 .App-link {
   color: #61dafb;
