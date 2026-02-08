@@ -11,8 +11,9 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to<a href="https://nextjs.org">Photosynthesis</a>
+          Welcome to <a href="https://nextjs.org">Photosynthesis</a>
         </h1>
+        <p>hello ! test pushing</p>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
